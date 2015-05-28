@@ -1,0 +1,5 @@
+Below is the jsperf test which creates instances when methods are defined inside constructor methods vs in prototype object.
+ 
+Methods defined in prototype object is faster as each instance shares the same prototype object thats with the constructor function.
+ 
+http://jsperf.com/prototype-vs-constructor-methods
